@@ -27,6 +27,7 @@ class Artist
   def self.song_count
     @@artists.each do |artist|
       @songs.count
+      each
   end
     
 end
